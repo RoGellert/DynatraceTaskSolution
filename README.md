@@ -18,8 +18,6 @@ Solution for the backend task from https://github.com/joaquinfilipic-dynatrace/g
 
 # How to run and use
 
- ## How to run (and use) only the server 
-
 Provided you have python and dependencies installed, navigate to the FlaskApi folder and run
 ```
 python -m NBPRequests.py 
@@ -46,7 +44,7 @@ curl 'http://153.19.209.27:5000/average_exchange_rate?code=gbp&date=2023-04-21'
 ```
 If it doesn't work double check on which IP the server is listening
 
- ## List of queries
+ # List of queries
 
 - ### Query 1 is as mentioned before:
 ```
@@ -74,7 +72,7 @@ Like for example:
 http://localhost:5000/major_difference?code=GBP&last_quotations_num=3
 ```
 
-## Back-end container
+# Back-end container
 
 Provided you have docker desktop installed and running you can run:
 ```
@@ -96,7 +94,7 @@ docker pull romangellert/backend:latest
 To pull an image from docker hub
 
 
-## Front-end
+# Front-end
 
 ![image](https://user-images.githubusercontent.com/87701714/234054256-53521e67-928a-454b-a6c4-99632f6d4df8.png)
 
@@ -110,7 +108,7 @@ And go to http://localhost:5173/ or another port vite is running on to access th
 
 Make sure server is running for app to display the data correctly 
 
-## Front-end container 
+# Front-end container 
 
 Following the same logic as with back-end container you can run 
 ```
@@ -129,7 +127,7 @@ docker pull romangellert/frontend
 ```
 To pull the container from docker hub 
 
-## Running both containers using docker compose
+# Running both containers using docker compose
 
 You can also navigate to the root folder (where docker-compose.yml file is situated) and run 
 ```
@@ -137,7 +135,7 @@ docker compose up
 ```
 To build and run both containers simultaneously
 
-## Accessing integration tests
+# Accessing integration tests
 
 In test_NBPRequests.py there are 3 classes for each query with integration tests.
 Make sure pytest package is installed
