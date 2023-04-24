@@ -64,7 +64,7 @@ def get_average_exchange_rate():
     except:
         return jsonify('check date input')
 
-    #checking if the day is the working day
+    #checking if the day is a working day
     if (is_not_a_working_day(date)):
         return jsonify('no data (weekend or holiday)')
     
