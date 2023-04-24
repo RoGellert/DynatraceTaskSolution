@@ -45,7 +45,7 @@ def get_average_exchange_rate():
     - If server fails to fetch data returns 
       'server error, no such code or date available in the database'
     """
-    #getting aruments from URL
+    #getting arguments from URL
     arguments = request.args
 
     currency_code = arguments.get('code')
@@ -99,7 +99,7 @@ def get_min_and_max_average_values():
       ["server error or currency code doesn't exist in the database", 
       "server error or currency code doesn't exist in the database"]
     """
-    #getting aruments from URL
+    #getting arguments from URL
     arguments = request.args
 
     currency_code = arguments.get('code')
@@ -149,7 +149,7 @@ def get_major_difference():
     - If server fails to fetch data returns 
       "server error or currency code doesn't exist in the database"
     """
-     #getting aruments from URL
+    #getting arguments from URL
     arguments = request.args
 
     currency_code = arguments.get('code')
