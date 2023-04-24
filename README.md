@@ -98,6 +98,9 @@ To pull an image from docker hub
 
 ## Front-end
 
+![image](https://user-images.githubusercontent.com/87701714/234054256-53521e67-928a-454b-a6c4-99632f6d4df8.png)
+
+
 Provided you have node.js and all dependencies installed you can navigate to ReactFrontend 
 and run 
 ```
