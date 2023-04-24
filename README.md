@@ -1,6 +1,6 @@
 # Solution for the internship task
 
-Solution for the back-end (full-stack) task from https://github.com/joaquinfilipic-dynatrace/gdn-internship-2023 
+Solution for the backend task from https://github.com/joaquinfilipic-dynatrace/gdn-internship-2023 
 
 # Components
 
