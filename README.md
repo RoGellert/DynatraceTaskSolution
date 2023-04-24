@@ -108,7 +108,7 @@ npm run dev
 ```
 And go to http://localhost:5173/ or another port vite is running on to access the development server 
 
-Make sure server is running for app to display data correctly 
+Make sure server is running for app to display the data correctly 
 
 ## Front-end container 
 
