@@ -7,7 +7,7 @@ import requests
 #creating a server object
 app = Flask(__name__)
 
-#exposing server from access
+#exposing server for access
 CORS(app)
 
 #creating a list of polish holidays
