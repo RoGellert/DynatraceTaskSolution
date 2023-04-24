@@ -13,7 +13,6 @@ Solution for the back-end (full-stack) task from https://github.com/joaquinfilip
 - ### ReactFrontend (folder with front-end)
     - src - folder with source files
     - Dockerfile - docker file to build the container
-    - requirements.txt - file with dependencies
     - package.json, package-lock.json - files with dependencies
     - index - entry html file for the app 
 - ### docker-compose.yml (file to build and start both containers at once)
