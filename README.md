@@ -136,7 +136,7 @@ To build and run both containers simultaneously
 
 ## Accessing integration tests
 
-In test_NBPRequests.py there are 3 classes for each query with integration tests 
+In test_NBPRequests.py there are 3 classes for each query with integration tests.
 Make sure pytest package is installed
 
 You can run tests using 
