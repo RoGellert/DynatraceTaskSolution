@@ -139,7 +139,7 @@ To build and run both containers simultaneously
 In test_NBPRequests.py there are 3 classes for each query with integration tests.
 Make sure pytest package is installed
 
-You can run tests using 
+You can run tests using bash
 ```
 python3 -m pytest -k test_NBPRequests -q
 ```
@@ -147,6 +147,11 @@ or
 ```
 pytest -k test_NBPRequests -q
 ```
-In vscode cmd terminal
+In cmd terminal
+
+Make sure the server is running (Better to run only server using python -m NBPRequests.py)
+
+![Screenshot_1](https://user-images.githubusercontent.com/87701714/234053800-ba26fd93-09f5-4752-ae68-c2bd4071bc3d.png)
+
 
 
