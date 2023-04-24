@@ -87,7 +87,7 @@ docker run -p 5000:5000 backend
 ```
 To run a container 
 
-Then you can access the urls with ip's and docs provided in the log of flask server starting (Usually http://localhost:5000/) to run the queries 
+Then you can access the urls with ip's and ports provided in the log of flask server starting (Usually http://localhost:5000/) to run the queries 
 
 Alternatively you can run 
 ```
