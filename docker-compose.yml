@@ -1,0 +1,33 @@
+version: "2.4"
+services:
+  backend: 
+    container_name: flask_backend  
+    build:
+      context: /FlaskApi
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5000:5000"
+    networks:
+      - combined
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+  frontend:
+    container_name: react_frontend  
+    build:
+      context: /ReactFrontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5173:5173"
+    networks:
+      - combined
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  combined:
+    driver: bridge
