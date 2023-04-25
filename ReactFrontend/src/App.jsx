@@ -9,7 +9,7 @@ function App() {
   const [MaxRateValue, setMaxRateValue] = useState(0);
   const [MajorDifference, setMajorDifference] = useState(0);
 
-  // creating variables to data to use in requests
+  // creating variables for data to use in requests
   const [DateToReturn, setDateToReturn] = useState('2023-01-02');
   const [CodeToReturnFirst, setCodeToReturnFirst] = useState('GBP');
   const [CodeToReturnSecond, setCodeToReturnSecond] = useState('GBP');
