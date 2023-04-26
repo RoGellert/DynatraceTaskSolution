@@ -52,7 +52,7 @@ function App() {
   const FetchMajorDifference = () => {
     const fetchAdress =
       "http://localhost:5000//major_difference?code=" +
-      CodeToReturnSecond +
+      CodeToReturnThird +
       "&last_quotations_num=" +
       LastQuotationsToReturnSecond
 
